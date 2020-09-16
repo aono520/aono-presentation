@@ -6,7 +6,13 @@
 
 html {
     font-size: 16px;
-    background-color: rgb(214, 250, 157);
+    background-color: rgb(193, 237, 255);
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
 }
 
 .container {
@@ -47,3 +53,72 @@ html {
 .mg-3rem {
     margin-bottom: 3rem;
 }
+
+.pad-05rem {
+    padding: 0.5rem;
+    padding-left: 0;
+}
+
+.pad-1rem {
+    padding: 1rem;
+    padding-left: 0;
+}
+
+
+.flex {
+    display: flex;
+    
+}
+
+.item1 {
+    flex: auto;
+}
+
+
+.photo {
+    max-width: 300px;
+    margin-top: 1rem;
+}
+
+.margin-l-1rem {
+    margin-left: 1rem;
+}
+
+img {
+
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 560px) {
+    /* タブレット用 */
+    }
+    
+@media screen and (min-width: 960px) {
+    /* PC用 */
+}
+
+
+
