@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+
+/* 全体関係 */
+
 *,*::before,*::after {
     box-sizing: border-box;
 }
@@ -7,13 +10,17 @@
 html {
     font-size: 16px;
     background-color: rgb(193, 237, 255);
+    font-family: "Sawarabi Mincho"; 
 }
+
 
 a {
     display: block;
     text-decoration: none;
     color: black;
 }
+
+
 
 .container {
     width: 100%;
@@ -22,9 +29,19 @@ a {
     padding: 2rem;
 }
 
+/* 配置関係 */
+
+
+
+
+/* テキスト中央揃え */
+
 .text-center {
     text-align: center;
 }
+
+/* テキストサイズ関係 */
+
 
 .textl {
     font-size: 2rem;
@@ -37,6 +54,12 @@ a {
 .textm {
     font-size: 1.5rem;
 }
+
+
+
+
+
+/* マージンボトム関係 */
 
 .mg-05rem {
     margin-bottom: 0.5rem;
@@ -54,6 +77,19 @@ a {
     margin-bottom: 3rem;
 }
 
+
+
+/* マージンレフト関係 */
+
+.margin-l-1rem {
+    margin-left: 1rem;
+}
+
+
+
+
+/* パディングレフト関係 */
+
 .pad-05rem {
     padding: 0.5rem;
     padding-left: 0;
@@ -65,6 +101,11 @@ a {
 }
 
 
+
+
+
+/* フレックス関係 */
+
 .flex {
     display: flex;
     
@@ -74,22 +115,39 @@ a {
     flex: auto;
 }
 
+.flex-box {
+    display: flexbox;
+}
+
+
+
+
+
+
+/* 写真関係 */
 
 .photo {
     max-width: 300px;
-    margin-top: 1rem;
 }
 
-.margin-l-1rem {
-    margin-left: 1rem;
-}
 
 img {
-
+    height: 95%;
     width: 100%;
 }
 
 
+/* 空白作成 */
+
+.kuhak50 {
+    line-height: 50px;
+}
+
+
+
+.kuhak100 {
+    line-height: 100px;
+}
 
 
 
@@ -109,7 +167,7 @@ img {
 
 
 
-
+/* ウィンドウサイズブレイクポイント設定 */
 
 
 @media screen and (min-width: 560px) {
