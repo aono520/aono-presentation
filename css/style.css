@@ -31,8 +31,21 @@ a {
 
 /* 配置関係 */
 
+/* サイズ関係 */
 
+.width50 {
+    min-width: 50px;
+}
+.width75 {
+    min-width: 75px;
+}
 
+.width100 {
+    min-width : 100px;
+}
+.width125 {
+    min-width : 125px;
+}
 
 /* テキスト中央揃え */
 
@@ -152,11 +165,26 @@ img {
 
 
 
+/* テーブル関係 */
 
+table,td,th {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
 
+th,td {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    line-height: 1.6rem;
+}
 
+.text-r {
+    text-align: right;
+}
 
-
+.text-c {
+    text-align: center;
+}
 
 
 
@@ -172,6 +200,7 @@ img {
 
 @media screen and (min-width: 560px) {
     /* タブレット用 */
+    
     }
     
 @media screen and (min-width: 960px) {
