@@ -17,10 +17,13 @@ html {
 a {
     display: block;
     text-decoration: none;
-    color: black;
+    color: blue;
 }
 
 
+.tr-center {
+    text-align: center;
+}
 
 .container {
     width: 100%;
@@ -30,6 +33,21 @@ a {
 }
 
 /* 配置関係 */
+
+.pos-root {
+    position: relative;
+}
+
+.pos {
+    width: 30% ;
+    height: auto;
+    position: absolute;
+}
+
+.bg-pos {
+top: px;
+left: 0px;
+}
 
 /* サイズ関係 */
 
@@ -90,7 +108,11 @@ a {
     margin-bottom: 3rem;
 }
 
+/* マージントップ関係 */
 
+.mg-top-05rem {
+    margin-top: 0.5rem;
+}
 
 /* マージンレフト関係 */
 
@@ -143,6 +165,10 @@ a {
     max-width: 300px;
 }
 
+.photo2 {
+    max-width: 250px;
+    height: 200px;
+}
 
 img {
     height: 95%;
@@ -200,11 +226,12 @@ th,td {
 
 @media screen and (min-width: 560px) {
     /* タブレット用 */
-    
+
     }
     
 @media screen and (min-width: 960px) {
     /* PC用 */
+
 }
 
 
