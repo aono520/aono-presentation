@@ -65,6 +65,10 @@ left: 0px;
     min-width : 125px;
 }
 
+.width500 {
+    max-width: 700px;
+}
+
 /* テキスト中央揃え */
 
 .text-center {
@@ -80,6 +84,10 @@ left: 0px;
 
 .textsl{
     font-size: 1.3rem;
+}
+
+.textssl{
+    font-size: 1.2rem;
 }
 
 .textm {
@@ -125,14 +133,12 @@ left: 0px;
 
 /* パディングレフト関係 */
 
-.pad-05rem {
-    padding: 0.5rem;
-    padding-left: 0;
+.pad-l-05rem {
+    padding-left: 0.5rem;
 }
 
-.pad-1rem {
-    padding: 1rem;
-    padding-left: 0;
+.pad-l-1rem {
+    padding-left: 1rem;
 }
 
 
@@ -150,9 +156,6 @@ left: 0px;
     flex: auto;
 }
 
-.flex-box {
-    display: flexbox;
-}
 
 
 
@@ -168,6 +171,10 @@ left: 0px;
 .photo2 {
     max-width: 250px;
     height: 200px;
+}
+
+.photo3 {
+    max-width: 600px;
 }
 
 img {
