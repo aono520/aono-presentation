@@ -65,14 +65,26 @@ left: 0px;
     min-width : 125px;
 }
 
+.width300 {
+    max-width: 300px;
+}
+
+.width400 {
+    max-width: 400px;
+}
+
 .width500 {
-    max-width: 700px;
+    max-width: 500px;
 }
 
 /* テキスト中央揃え */
 
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 /* テキストサイズ関係 */
@@ -94,6 +106,9 @@ left: 0px;
     font-size: 1.5rem;
 }
 
+.texts {
+    font-size: 0.75rem;
+}
 
 
 
@@ -141,7 +156,13 @@ left: 0px;
     padding-left: 1rem;
 }
 
+.pad-l-15rem {
+    padding-left: 1.5rem;
+}
 
+.pad-l-2rem {
+    padding-left: 2rem;
+}
 
 
 
@@ -170,11 +191,14 @@ left: 0px;
 
 .photo2 {
     max-width: 250px;
-    height: 200px;
 }
 
 .photo3 {
     max-width: 600px;
+}
+
+.photomax {
+    max-width: 100%;
 }
 
 img {
@@ -199,6 +223,8 @@ img {
 
 
 /* テーブル関係 */
+
+
 
 table,td,th {
     border-collapse: collapse;
@@ -231,13 +257,21 @@ th,td {
 /* ウィンドウサイズブレイクポイント設定 */
 
 
-@media screen and (min-width: 560px) {
-    /* タブレット用 */
+@media screen and (max-width: 560px) {
+    /* スマホ用 */
+    html {
+        font-size: 0.5rem;
+    }
 
     }
     
 @media screen and (min-width: 960px) {
     /* PC用 */
+    html {
+        font-size: 1.5rem;
+        
+    }
+
 
 }
 
