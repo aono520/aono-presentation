@@ -21,11 +21,6 @@ a {
 }
 
 
-.tr-center {
-    text-align: center;
-}
-
-
 
 
 .container {
@@ -249,11 +244,10 @@ th,td {
     text-align: right;
 }
 
-.text-c {
+
+.tr-center {
     text-align: center;
 }
-
-
 
 
 
